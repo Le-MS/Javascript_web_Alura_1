@@ -115,3 +115,22 @@ ul{
     font-size: 12px;
     line-height: 20px;
 }
+
+.checkbox-input{
+    display: none;
+}
+
+.checkbox-customizado{
+    width: 20px;
+    height: 20px;
+    background-color: var(--neutro);
+    border: 1px solid var(--preto);
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.checked{
+    background-color: var(--preto);
+    position: relative;
+}
